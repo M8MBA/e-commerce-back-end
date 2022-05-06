@@ -17,13 +17,13 @@ router.get('/', (req, res) => {
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
-  })
+  });
 });
 
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
-  Category.fineOne({
+  Category.findOne({
     where: {
       id: req.params.id
     },

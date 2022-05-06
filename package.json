@@ -1,7 +1,7 @@
 {
   "name": "module-13-challenge-orm",
   "version": "1.0.0",
-  "description": "## Description",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "jest",
